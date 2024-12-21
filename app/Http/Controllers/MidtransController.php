@@ -51,7 +51,7 @@ class MidtransController extends Controller
             'item_details' => [
                 [
                     'id' => $orders->product->id,
-                    'price' => $orders->total_price,
+                    'price' => $orders->product->price,
                     'quantity' => $orders->quantity,
                     'name' => $orders->product->name,
                 ],
