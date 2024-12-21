@@ -95,8 +95,7 @@
                     </tbody>
                 </table>
             </div>
-            <div
-                class="grid grid-cols-1 md:grid-cols-2 gap-3 w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow-md mt-5">
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-2 w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow-md mt-5">
                 <div>
                     <div class="mb-6">
                         <label for="catatan"
@@ -105,11 +104,11 @@
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                     </div>
                 </div>
-                <div class="flex flex-col md:flex-row justify-end md:items-center w-full gap-10">
+                <div class="flex flex-col md:flex-row justify-end md:items-center w-full gap-5">
                     <p class="text-start text-base text-gray-500 sm:text-lg">Total ({{ $carts->count() }} Produk): <span
-                            class="font-semibold text-lg md:text-3xl text-slate-900">Rp
+                            class="font-semibold text-lg 2xl:text-2xl text-slate-900">Rp
                             {{ number_format($total, 0, ',', '.') }}</span></p>
-                    <div class="flex flex-row md:items-center md:space-x-4 space-x-2">
+                    <div class="flex flex-row md:items-center 2xl:space-x-4 space-x-2">
                         <a href="{{ route('homepage') }}"
                             class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-red-700 rounded-lg hover:bg-red-500 focus:ring-4 focus:ring-red-300">
                             <button type="button">
