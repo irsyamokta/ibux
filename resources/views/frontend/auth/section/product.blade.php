@@ -11,7 +11,7 @@
             </a>
             <div class="px-5 pb-5 mt-5">
                 <a href="{{ route('view', $product->id) }}">
-                    <h5 class="text-2xl font-semibold tracking-tight text-gray-900">{{ $product->name }}</h5>
+                    <h5 class="text-2xl font-semibold tracking-tight truncate text-gray-900">{{ $product->name }}</h5>
                 </a>
                 <div class="flex items-center justify-between mt-4 gap-3">
                     <span class="text-xl font-bold text-gray-900">Rp{{ number_format($product->price, 0, ',', '.') }}</span>
