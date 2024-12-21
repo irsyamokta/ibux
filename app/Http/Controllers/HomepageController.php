@@ -10,7 +10,7 @@ class HomepageController extends Controller
 {
     public function index()
     {
-        $products = Product::paginate(8);
+        $products = Product::paginate(10);
         return view('frontend.index', compact('products'));
     }
 
@@ -76,7 +76,7 @@ class HomepageController extends Controller
     public function search(Request $request)
     {
         $query = $request->input('search');
-        $products = Product::where('name', 'like', '%' . $query . '%')->paginate(8);
+        $products = Product::where('name', 'like', '%' . $query . '%')->paginate(10);
 
         if (auth()->check()) {
             return view('frontend.auth.product.search', compact('products', 'query'));
