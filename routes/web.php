@@ -8,7 +8,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\MidtransController;
 use App\Http\Controllers\OrderController;
 
-Route::get('/', [HomepageController::class, 'index'])->name('homepage');
+Route::get('/', [HomepageController::class, 'index'])->name('guest');
 Route::get('/search', [HomepageController::class, 'search'])->name('search');
 
 Route::middleware(['auth', 'role:customer'])->group(function () {
