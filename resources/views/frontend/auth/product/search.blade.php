@@ -2,11 +2,11 @@
 @section('content')
     @include('components.navbar-auth')
     @if ($products->count() > 0)
-        <section id="home" class="flex flex-col justify-start items-start overflow-hidden lg:px-12 mb-40 mt-30">
+        <section id="home" class="flex flex-col justify-center items-center md:justify-start md:items-start overflow-hidden px-4 lg:px-12 mb-40 mt-30">
             <div class="w-full text-center lg:text-left mb-8">
                 <h1 class="md:mb-4 text-2xl font-semibold tracking-wide text-black md:text-3xl 2xl:text-4xl">Hasil pencarian untuk "{{ $query }}"</h1>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4">
                 @foreach ($products as $product)
                     <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                         <a href="{{ route('view', $product->id) }}">
@@ -28,7 +28,7 @@
                     </div>
                 @endforeach
             </div>
-            <div class="mt-5 w-full flex justify-end">
+            <div class="mt-5 w-full flex justify-center md:justify-end">
                 <div class="flex items-center gap-2">
                     {{ $products->links('vendor.pagination.tailwind') }}
                 </div>

@@ -3,40 +3,40 @@
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="/" class="flex items-center">
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap">iBux</span>
+                    <span class="self-center text-4xl font-semibold whitespace-nowrap">iBux</span>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Produk</h2>
                     <ul class="text-gray-500 font-medium">
                         <li class="mb-4">
-                            <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                            <a href="" class="hover:underline">Iphone</a>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                            <a href="" class="hover:underline">Aksesoris</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Informasi</h2>
                     <ul class="text-gray-500 font-medium">
                         <li class="mb-4">
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">FAQ</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Tentang Kami</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Layanan</h2>
                     <ul class="text-gray-500 font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Privacy Policy</a>
+                            <a href="#" class="hover:underline">Lokasi Toko</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            <a href="#" class="hover:underline">Hubungi Kami</a>
                         </li>
                     </ul>
                 </div>
