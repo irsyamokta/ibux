@@ -1,66 +1,96 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# iBux
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+iBux adalah sebuah website penjualan online yang dirancang khusus untuk produk iPhone, menawarkan pengalaman berbelanja yang mudah, cepat, dan aman. Website ini dilengkapi dengan berbagai fitur utama, seperti pencarian produk yang responsif untuk mempermudah pengguna menemukan iPhone sesuai kebutuhan, serta keranjang belanja yang memungkinkan pengelolaan item sebelum melanjutkan ke proses checkout. Proses checkout dibuat sederhana, dan integrasi dengan payment gateway Midtrans memastikan transaksi pembayaran berjalan lancar dengan berbagai metode, termasuk transfer bank, kartu kredit, dan dompet digital.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Multirole autentikasi**: Memiliki peran sebagai Customer dan Admin dengan hak akses yang berbeda.
+- **Keranjang**: Memudahkan Customer menyimpan produk ke keranjang sebelum checkout.
+- **Payment Gateway**: Integrasi dengan Midtrans untuk kemudahan pembayaran.
+- **Manajemen Order**: Memudahkan Admin dalam mengelola order.
+- **Manajemen Produk**: Memudahkan Admin dalam mengelola produk.
+- **Responsive**: Tampilan web yang optimal di berbagai perangkat.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tech Stack
 
-## Learning Laravel
+- **Backend**: Laravel
+- **Frontend**: Tempalating Blade Engine, TailwindCSS for Styling
+- **Database**: MySQL
+- **Others**: Javascript
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Demo Project
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Web saat ini masih dalam pengembangan (local)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Preview
 
-### Premium Partners
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/1.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/2.png)
 
-## Contributing
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/3.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/4.png)
 
-## Code of Conduct
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/5.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/6.png)
 
-## Security Vulnerabilities
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/7.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/8.png)
 
-## License
+![App Screenshot](https://github.com/irsyamokta/assets/blob/a9fcb802bc00cff28ee18932f8837469faefa2f2/ibux/9.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Panduan Instalasi
+Ikuti langkah-langkah berikut untuk menginstal iBux di lokal Anda:
+<br>Nb. Pastikan lokal server Anda sudah berjalan, bisa menggunakan XAMPP, Laragon, atau sejenisnya.
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/irsyamokta/ibux.git
+   
+2. **Masuk ke Direktori Proyek Setelah repositori ter-clone**
+   ```bash
+   cd ibux
+    
+3. **Install Dependencies Pastikan Anda sudah menginstal Composer dan Node.js**
+   ```bash
+   composer install
+   npm install
+   
+4. **Konfigurasi .env**
+   ```bash
+   cp .env.example .env
+   
+5. **Generate Key Aplikasi**
+   ```bash
+   php artisan key:generate
+   
+6. **Migrasi Database**
+   ```bash
+   php artisan migrate
+   
+7. **Buat Storage Link**
+   ```bash
+   php artisan storage:link
+   
+8. **Install NPM Assets**
+   ```bash
+   npm run dev
+   
+9. **Jalankan Server**
+   ```bash
+   php artisan serve
+
+10. Akses aplikasi melalui browser di alamat http://localhost:8000.
+
+## Issue
+Jika Anda menemui masalah atau membutuhkan bantuan lebih lanjut, silakan buka issue di GitHub atau hubungi saya.
+
+## Authors
+
+- [@irsyamokta](https://github.com/irsyamokta)
